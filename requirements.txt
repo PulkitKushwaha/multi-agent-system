@@ -1,0 +1,14 @@
+langchain==0.1.20
+langchain-openai==0.1.6
+langchain-community==0.0.38
+langgraph==0.0.38
+openai==1.14.0
+pydantic==2.6.4
+faiss-cpu==1.7.4
+sentence-transformers==2.6.1
+python-dotenv==1.0.1
+pytest==8.1.1
+pytest-asyncio==0.23.6
+tqdm==4.66.2
+numpy==1.26.4
+tavily-python==0.3.1
