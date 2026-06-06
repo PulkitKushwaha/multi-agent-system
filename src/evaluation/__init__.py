@@ -1,3 +1,21 @@
-# Evaluation module
-# Agent evaluation harness: task success, tool call accuracy,
-# loop detection, failure mode analysis
+# Multi-Agent System: source package
+
+from src.evaluation.harness import (
+    AgentEvaluationHarness,
+    HarnessReport,
+    TaskResult,
+    EvalTask,
+    TaskType,
+    FailureMode,
+    EVAL_TASK_SUITE
+)
+ 
+__all__ = [
+    "AgentEvaluationHarness",
+    "HarnessReport",
+    "TaskResult",
+    "EvalTask",
+    "TaskType",
+    "FailureMode",
+    "EVAL_TASK_SUITE"
+]
